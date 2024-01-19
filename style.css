@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+
+.cover{
+    background:no-repeat, linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/http-www-webdesigningdubai-ae/image/upload/v1703658959/12980762_5096160_gxc7zn.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.cover-content{
+    min-height: 100vh;
+}
+.cover-content img{
+
+    max-width: 200px;
+    border:2px solid white;
+}
+
+.about{
+    background-color: #ececec;
+}
+
+@media screen and (max-width: 760px) {
+    .cover-content h1{
+        font-size: 36px;
+        font-weight: bold;
+        padding-top: 30px;
+        text-align:center;
+    }
+
+    .cover-content h6{
+        font-size: 15px;
+    }
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 50px;
+}
+h6 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    padding: 0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    display:inline-block;
+
+    
+    
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    padding-left: 1%;
+
+
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+    .gcash img {
+
+        display: block;
+        padding: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 20%;;
+    }
+
+    .center  {
+            text-align: center;
+            font-style: bold;
+            font-size: 60px;
+    }
